@@ -1,5 +1,3 @@
-# Kaggle_DisasterTweets
-
 # Transformer Models: BERT and Its Variants
 
 Transformers are a class of deep learning models that have revolutionized Natural Language Processing (NLP) by leveraging a **self-attention mechanism** to process and understand text efficiently. This README introduces **BERT** and its popular variants: **DistilBERT**, **ALBERT**, and **RoBERTa**.
