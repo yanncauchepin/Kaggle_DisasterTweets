@@ -1,0 +1,8 @@
+bert_model/
+bert_results/
+distil_bert_model/
+distil_bert_results/
+albert_model/
+albert_results/
+robert_model/
+robert_results/
