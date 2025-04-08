@@ -2,8 +2,6 @@
 
 Transformers are a class of deep learning models that have revolutionized Natural Language Processing (NLP) by leveraging a **self-attention mechanism** to process and understand text efficiently. This README introduces **BERT** and its popular variants: **DistilBERT**, **ALBERT**, and **RoBERTa**.
 
----
-
 ##  What is BERT?
 
 BERT (*Bidirectional Encoder Representations from Transformers*) is a transformer-based model introduced by Google in 2018. Its key innovation is **bidirectional attention**, which allows the model to understand context by considering words both before and after a given word.
@@ -14,8 +12,6 @@ BERT (*Bidirectional Encoder Representations from Transformers*) is a transforme
   - **Next Sentence Prediction (NSP):** Predict if one sentence follows another.
 - **Applications:** Text classification, sentiment analysis, question answering, named entity recognition, etc.
 - **Variants:** Available in configurations like `BERT Base` (12 layers) and `BERT Large` (24 layers).
-
----
 
 ## BERT Variants
 
@@ -30,8 +26,6 @@ BERT (*Bidirectional Encoder Representations from Transformers*) is a transforme
 - Uses fewer layers (6 vs. BERT Base's 12).
 - Removes the NSP pretraining task.
 
----
-
 ### 2. ALBERT (A Lite BERT)
 **ALBERT** is designed by Google Research to make BERT more **memory-efficient** and **scalable** without significantly sacrificing performance.
 
@@ -43,8 +37,6 @@ BERT (*Bidirectional Encoder Representations from Transformers*) is a transforme
 **Advantages**:
 - Uses **fewer parameters** and requires less memory.
 - Maintains comparable performance to BERT on downstream tasks.
-
----
 
 ### 3. RoBERTa (Robustly Optimized BERT)
 **RoBERTa**, developed by Facebook AI, enhances BERT by optimizing its pretraining process.
@@ -58,8 +50,6 @@ BERT (*Bidirectional Encoder Representations from Transformers*) is a transforme
 - Outperforms BERT on many NLP benchmarks.
 - Achieves better generalization through robust pretraining.
 
----
-
 ## Comparison Table
 
 | Feature                | BERT           | DistilBERT        | ALBERT            | RoBERTa          |
@@ -72,8 +62,6 @@ BERT (*Bidirectional Encoder Representations from Transformers*) is a transforme
 | **Parameter Sharing**  | No             | No                | Yes               | No               |
 | **Performance**        | High           | Slightly lower    | Comparable        | Higher           |
 
----
-
 ## Key Takeaways
 
 1. **BERT** is the foundational model, known for its bidirectional attention and versatility.
@@ -82,8 +70,6 @@ BERT (*Bidirectional Encoder Representations from Transformers*) is a transforme
 4. **RoBERTa** achieves better performance through enhanced training strategies.
 
 Each variant caters to specific needs, making transformers accessible and powerful for diverse NLP applications.
-
----
 
 ## References
 
@@ -94,7 +80,7 @@ Each variant caters to specific needs, making transformers accessible and powerf
 
 ## How to Use
 
-- For pre-trained BERT and its variants, check out [Hugging Face's Transformers Library](https://github.com/huggingface/transformers).
+For pre-trained BERT and its variants, check out [Hugging Face's Transformers Library](https://github.com/huggingface/transformers).
 
 
 ---
